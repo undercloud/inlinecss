@@ -3,11 +3,11 @@ Inline CSS Generator
 
 
 ```PHP
-	$css = new \Undercloud\InlineCss;
-	
-	$css->color      = '#282828';
-	$css->lineHeight = 1.5;
-	$css->fontSize   = '36px';
+$css = new \Undercloud\InlineCss;
 
-	echo '<h1 style="' . $css . '">Hello I\'m inline CSS</h1>';
+$css->color      = '#282828';
+$css->lineHeight = 1.5;
+$css->fontSize   = '36px';
+
+echo '<h1 style="' . $css . '">Hello I\'m inline CSS</h1>';
 ```

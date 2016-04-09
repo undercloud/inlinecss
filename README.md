@@ -6,6 +6,8 @@ Inline CSS Generator
 
 ##Basic example
 ```PHP
+require 'vendor/autoload.php';
+
 $css = new \Undercloud\InlineCss;
 
 $css->color      = '#282828';

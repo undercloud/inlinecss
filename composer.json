@@ -1,0 +1,19 @@
+{
+	"name": "undercloud/inlinecss",
+	"description": "PHP Stylesheet Generator",
+	"keywords": ["style","stylesheet","css"],
+	"homepage": "https://github.com/undercloud/inlinecss",
+	"license": "MIT",
+	"authors": [
+		{
+			"name": "undercloud",
+			"email": "lodashes@gmail.com"
+		}
+	],
+	"require": {
+		"php": ">=5.3.0"
+	},
+	"autoload": {
+		"files": ["InlineCSS.php"]
+	}
+}

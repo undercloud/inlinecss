@@ -1,6 +1,9 @@
 # inlinecss
 Inline CSS Generator
 
+##Install
+```composer require undercloud/inlinecss```
+
 ##Basic example
 ```PHP
 $css = new \Undercloud\InlineCss;
